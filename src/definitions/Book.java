@@ -27,4 +27,12 @@ public class Book {
         this.bookAuthorName = bookAuthorName;
     }
 
+    public String getISBN(){
+        return null;
+    }
+
+    public void setISBN(String ISBN){
+        this.ISBN = ISBN;
+    }
+
 }
