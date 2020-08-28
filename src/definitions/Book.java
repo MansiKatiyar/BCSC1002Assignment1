@@ -26,7 +26,7 @@ public class Book {
     }
 
     public String getBookName() {
-        return null;
+        return bookName;
     }
 
     public void setBookName(String bookName) {
@@ -34,7 +34,7 @@ public class Book {
     }
 
     public String getBookAuthorName() {
-        return null;
+        return bookAuthorName;
     }
 
     public void setBookAuthorName(String bookAuthorName){
@@ -42,7 +42,7 @@ public class Book {
     }
 
     public String getISBN() {
-        return null;
+        return ISBN;
     }
 
     public void setISBN(String ISBN) {
