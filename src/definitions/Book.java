@@ -7,19 +7,31 @@
 package definitions;
 
 public class Book {
-    private  String  bookName;
+    private String bookName;
     private String bookAuthorName;
     private String ISBN;
 
-    public String getBookName(){
+    public Book(String bookName, String bookAuthorName, String ISBN) {
+        this.bookName = bookName;
+        this.bookAuthorName = bookAuthorName;
+        this.ISBN = ISBN;
+    }
+
+    public Book() {
+        bookName = "DBMS";
+        bookAuthorName = "Navathe";
+        ISBN = "978-0-136-08620-8";
+    }
+
+    public String getBookName() {
         return null;
     }
 
-    public void setBookName(String bookName){
-      this.bookName = bookName;
+    public void setBookName(String bookName) {
+        this.bookName = bookName;
     }
 
-    public String getBookAuthorName(){
+    public String getBookAuthorName() {
         return null;
     }
 
