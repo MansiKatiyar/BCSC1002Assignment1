@@ -10,7 +10,13 @@ public class Student {
     private String studentName;
     private long universityRollNo;
     private int numberOfBooksIssued;
-    private Book[] available;
+    private Book[] issued;
 
+    public String getStudentName() {
+        return studentName;
+    }
 
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
 }
