@@ -19,4 +19,13 @@ public class Student {
     public void setStudentName(String studentName) {
         this.studentName = studentName;
     }
+
+    public long getUniversityRollNo() {
+        return universityRollNo;
+    }
+
+    public void setUniversityRollNo() {
+        this.universityRollNo = universityRollNo;
+    }
+
 }
