@@ -10,7 +10,14 @@ import definitions.Book;
 
 public class FrontDesk {
     public static void main(String[] args) {
-        Book book = new Book("abc", "xyz", "pqr");
-        System.out.println("book name: " + book.getBookName() + " book author name: " + book.getBookAuthorName() + " ISBN: " + book.getISBN());
+        Book book = new Book();
+        //System.out.println("book name: " + book.getBookName() + " book author name: " + book.getBookAuthorName() + " ISBN: " + book.getISBN());
+        //book.setBookName("abc");
+        //book.setBookAuthorName("pqr");
+        // book.setISBN("09876543");
+        //System.out.println(book.getBookName());
+        //System.out.println(book.getBookAuthorName());
+        //System.out.println(book.getISBN());
+        //System.out.println(book.getClass());
     }
 }
