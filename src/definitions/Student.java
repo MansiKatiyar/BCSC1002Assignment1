@@ -35,4 +35,12 @@ public class Student {
     public void setNumberOfBooksIssued(int numberOfBooksIssued) {
         this.numberOfBooksIssued = numberOfBooksIssued;
     }
+
+    public Book[] getIssued() {
+        return issued.clone();
+    }
+
+    public void setIssued(Book[] issued) {
+        this.issued = issued;
+    }
 }
