@@ -20,5 +20,12 @@ public class Library {
         this.available = available;
     }
 
+    public Book[] getAvailable() {
+        return available.clone();
+    }
+
+    public void setAvailable(Book[] available) {
+        this.available = available;
+    }
 
 }
