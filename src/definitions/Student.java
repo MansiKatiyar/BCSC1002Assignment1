@@ -28,6 +28,9 @@ public class Student {
         numberOfBooksIssued = 5;
     }
 
+    public Student(Book[] issued) {
+        this.issued = issued;
+    }
 
     public String getStudentName() {
         return studentName;
