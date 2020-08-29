@@ -8,4 +8,17 @@ package definitions;
 
 public class Library {
     private Book[] available;
+
+    public Library() {
+        this.available = new Book[10];
+        for (int i = 0; i < available.length; i++) {
+            available[i] = new Book();
+        }
+    }
+
+    public Library(Book[] available) {
+        this.available = available;
+    }
+
+
 }
