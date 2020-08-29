@@ -6,6 +6,8 @@
  * */
 package definitions;
 
+import java.util.Arrays;
+
 public class Library {
     private Book[] available;
 
@@ -28,4 +30,7 @@ public class Library {
         this.available = available;
     }
 
+    public String toString() {
+        return Arrays.toString(available);
+    }
 }
